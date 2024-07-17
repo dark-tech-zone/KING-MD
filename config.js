@@ -4,13 +4,13 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || ""
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://darktechzone:darktechzone@suhailmd.dhkpxx0.mongodb.net/?retryWrites=true&w=majority&appName=suhailmd"
 global.port= process.env.PORT || 5000
 global.email = 'textnow1pak@gmail.com'
-global.github = 'https://github.com/naveeddogar/KING-MD'
-global.location = 'pakistan/multan'
+global.github = 'https://github.com/dark-tech-zone/KING-MD/edit/main/config.js'
+global.location = 'INDIA/DELHI'
 global.gurl = 'https://whatsapp.com/channel/0029Va66s2IJENxvTJjUtM1w' // add your username
-global.sudo = process.env.SUDO || '923096566451'
+global.sudo = process.env.SUDO || '919310763037'
 global.devs = '923096566451';
 global.website = 'https://king-md-session.onrender.com/' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/5541dfe4dc8c2f51e3f02.jpg'
